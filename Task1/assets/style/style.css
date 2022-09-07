@@ -43,7 +43,7 @@ aside{
 }        
 .buttons{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25% 20% 20% 20%;
     grid-template-rows: 20% 20% 20% 20%;
     align-content:space-evenly;
     justify-content:space-evenly;
@@ -71,8 +71,8 @@ aside{
         display:grid;
         grid-template-columns: 80% 20%;
         grid-template-rows: 92% 8%;
-        height: 100vh;
-        width: 100vw;
+        height: 60vh;
+        width: 70vw;
     }
 }
 @media screen and (min-width:800px) {
@@ -117,7 +117,7 @@ aside{
 }
 @media screen and (max-width:799px) {
     main{
-        height: 30vh;
+        height: 55vh;
     }
     header{
         height: 15vh;
