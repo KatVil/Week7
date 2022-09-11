@@ -23,23 +23,25 @@ h1{
         Line-height: 150%;
         margin-top: 30vh;
         margin-right:35vw;
-        margin-left: -25vw;
+        margin-left: -20vw;
         padding-top: 5vh;
         margin-bottom: 20vh;
         padding-bottom: 10vh;
+        padding-right: 5vw;
+        padding-left: 5vw;
     }
 h4 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 1vh;
     justify-items: center;
     align-items: flex-start;
-    margin-bottom: 200px;
+    margin-bottom: 20vh;
     Font-family: Azeret Mono, sans-serif;
     Font-style: Bold;
     Font-size: 1.5em;
     Line-height: 509%;
-    margin-left: 1100px;
+    margin-left: 35vw;
     flex-direction: row;
     justify-content: center;
     padding: 0%;
@@ -55,7 +57,7 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgba(74, 43, 51, 1);
-    margin: 5px;
+    margin: 0;
     height: 100vh;
     width: 100vw;
 }
@@ -75,29 +77,31 @@ h4 {
     Line-height: 132%;
     color:rgba(210, 116, 135, 1);
     text-decoration: none;
-    margin: 1vw 1vh;
+    margin-top: 2.2vh;
 }
 .mail{
     display: flex;
     justify-items: flex-end;
     align-items: flex-start;
-    margin-top: -92px;
-    margin-left: 2360px;
+    margin-top: -10vh;
+    padding-top: 1.8vh;
+    margin-left: 80vw;
 }
 .facebook{
     display: flex;
     justify-items: flex-end;
     align-items: flex-start;
-    margin-top: -22px;
-    margin-left: 2410px;
+    margin-top: -2.2vh;
+    padding-top: 0.221vh;
+    margin-left: 82vw;
 }
 
 .insta{
     display: flex;
     justify-items: flex-end;
     align-items: flex-start;
-    margin-top: -23px;
-    margin-left: 2460px;
+    margin-top: -1.8vh;
+    margin-left: 84vw;
 }
 .cafe{
     display:flex;
@@ -123,11 +127,7 @@ h4 {
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-left:800px;
-    /*margin-right:10vw;
-    margin-left:80vw;
-    margin-top:2vh;
-    margin-bottom:10vh;*/
+    margin-left:20vw;
 }
 .menutitle{
 display: flex;
@@ -135,13 +135,13 @@ flex-direction: row;
 justify-content: flex-start;
 align-content: flex-start;
 margin-right: 90vw;
-margin-left: 5vw;
+margin-left: 7vw;
 margin-top: 18vh;
 font-family: 'Azeret Mono', Azeret Mono, Inter, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 2em;
-line-height: 22px;
+line-height: 120%;
 color:rgb(113, 113, 113);
 }
 .dishingup{
@@ -149,10 +149,10 @@ display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-content: flex-start;
-margin-right: 53vw;
-margin-left: 4vw;
-margin-top: -10vh;
-margin-bottom: 10vh;
+margin-right: 57vw;
+margin-left: 2vw;
+margin-top: -20vh;
+margin-bottom: 15vh;
 font-family: 'Inter', Inter, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -162,174 +162,64 @@ color:rgb(113, 113, 113);
 }
 .foodmenu{
 display:flex;
-padding: 30px 320px 30px 320px;
-margin-left: 110px;
+padding: 3vh 11vw 3vh 11vw;
+margin-left: 4vw;
 background-color: rgb(113, 113, 113);
 border: none;
 color:whitesmoke;
 font-family: 'Inter', Inter, sans-serif;
 font-size: 2em;
-margin-bottom: 30px;
-margin-top: -200px;
+margin-bottom: 2vh;
+margin-top: -8vw;
 }
 .menuimg{
     display: flex;
     flex-direction: row;
-    margin-left: 1200px;
-    margin-top: -800px;
+    margin-left: 45vw;
+    margin-top: -90vh;
+    margin-bottom: 20vh;
 }
 .drinksmenu{
 display:flex;
-padding: 30px 307px 30px 307px;
-margin-left: 110px;
+padding: 2.9vh 10.61vw 2.9vh 10.61vw;
+margin-left: 4vw;
 background-color: whitesmoke;
-border: 2px solid rgb(113, 113, 113);
+border: 5% solid rgb(113, 113, 113);
 color:rgb(113, 113, 113);
 font-family: 'Inter', Inter, sans-serif;
 font-size: 2em;
-margin-top: -10px;
-margin-bottom: 30px;
+margin-top: 3vh;
+margin-bottom: 20vh;
 }
 .takeawaymenu{
 display:flex;
-padding: 30px 280px 30px 280px;
-margin-left: 110px;
+padding: 3vh 9.7vw 3vh 9.7vw;
+margin-left: 3.8vw;
 background-color: whitesmoke;
-border: 2px solid rgb(113, 113, 113);
+border: 5% solid rgb(113, 113, 113);
 color:rgb(113, 113, 113);
 font-family: 'Inter', Inter, sans-serif;
 font-size: 2em;
-margin-bottom: 30px;
+margin-top: -17vh;
+margin-bottom: 18vh;
 }
 .menubars{
     display: block;
-    padding-top: 5px;
-    padding-bottom: 200px;
-    margin-left: 350px;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+    margin-left: 10vw;
 }
 .menustaff{
     background-color: #e5e5e4;
-    margin-top: -30px;
+    margin-top: -7vh;
 }
 
 .nav:hover,.foodmenu:hover,.drinksmenu:hover, .takeawaymenu:hover{
     cursor:pointer;
 }
+.nav a:hover{
+    text-decoration: underline;
+}
 .mail:hover,.facebook:hover, .insta:hover{
     cursor:pointer;
-}
-@media screen and (min-width:500px) and (max-width:2024px){
-    h1{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 35vw;
-    margin-top: -70vw;
-    flex-wrap: wrap;
-    Font-family: Inter, sans-serif;
-    font-weight: bolder;
-    Font-size:2.6em;
-    Line-height: 232%;
-    color: rgba(210, 116, 135, 1);
-}
-    h3{
-        display: flex;
-        flex-direction: row;
-        Font-family: Inter, sans-serif;
-        Font-style: lighter;
-        Font-size: 2.25em;
-        justify-items: center;
-        Line-height: 150%;
-        margin-top: 40vh;
-        margin-right: 80vw;
-        margin-left: 60vw;
-        margin-bottom: 20vh;
-    }
-h4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    justify-items: center;
-    align-items: flex-start;
-    margin-left: 0px;
-    margin-bottom: 200px;
-    Font-family: Azeret Mono, sans-serif;
-    Font-style: Bold;
-    Font-size: 1.5em;
-    Line-height: 509%;
-    margin-left: 1100px;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0%;
-    align-content: flex-start;  
-    }
-
-    .a{
-    color:rgba(210, 116, 135, 1);
-    text-decoration: none;
-        }
-    /*.lattecafe{
-        font-style: italic;
-    }*/
-.flexcontainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgba(74, 43, 51, 1);
-    margin: 5%;
-    height: 100vh;
-    width: 100vw;
-}
-.header{
-    background-color: rgba(74, 43, 51, 1);
-}
-.footer, .main{
-    background-color: rgba(74, 43, 51, 1);
-}
-.nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    Font-family: Inter, sans-serif;
-    font-weight: lighter;
-    Font-size: 1.2em;
-    Line-height: 132%;
-    color:rgba(210, 116, 135, 1);
-    text-decoration: none;
-    margin: 5px;
-}
-.mail{
-    display: flex;
-    justify-items: flex-end;
-    align-items: flex-start;
-    margin-top: -92px;
-    margin-left: 2360px;
-}
-.facebook{
-    display: flex;
-    justify-items: flex-end;
-    align-items: flex-start;
-    margin-top: -22px;
-    margin-left: 2410px;
-}
-
-.insta{
-    display: flex;
-    justify-items: flex-end;
-    align-items: flex-start;
-    margin-top: -23px;
-    margin-left: 2460px;
-}
-.cafe{
-    display:flex;
-    flex-direction: row;
-    justify-items: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: -45px;
-    margin-bottom:-10px;
-    width: 100%;
-    padding: 0;
-}
 }
