@@ -24,14 +24,14 @@ h1{
         margin-right: 800px;
         margin-left: -600px;
         margin-bottom: 200px;
+        padding-bottom: 150px;
     }
 h4 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 10px;
     justify-items: center;
     align-items: flex-start;
-    margin-left: 0px;
     margin-bottom: 200px;
     Font-family: Azeret Mono, sans-serif;
     Font-style: Bold;
@@ -139,15 +139,15 @@ font-style: normal;
 font-weight: 700;
 font-size: 2em;
 line-height: 22px;
-color: #6F6F64;
+color:rgb(113, 113, 113);
 }
 .dishingup{
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-content: flex-start;
-margin-right: 61vw;
-margin-left: 5vw;
+margin-right: 53vw;
+margin-left: 4vw;
 margin-top: -10vh;
 margin-bottom: 10vh;
 font-family: 'Inter', Inter, sans-serif;
@@ -155,11 +155,59 @@ font-style: normal;
 font-weight: 400;
 font-size: 3em;
 line-height: 140%;
-color: #6F6F64;
+color:rgb(113, 113, 113);
 }
-.foodmenu{}
-.drinksmenu{}
-.takeawaymenu{}
+.foodmenu{
+display:flex;
+padding: 30px 320px 30px 320px;
+margin-left: 110px;
+background-color: rgb(113, 113, 113);
+border: none;
+color:whitesmoke;
+font-family: 'Inter', Inter, sans-serif;
+font-size: 2em;
+margin-bottom: 30px;
+margin-top: -200px;
+}
+.menuimg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1200px;
+    margin-top: -800px;
+}
+.drinksmenu{
+display:flex;
+padding: 30px 307px 30px 307px;
+margin-left: 110px;
+background-color: whitesmoke;
+border: 2px solid rgb(113, 113, 113);
+color:rgb(113, 113, 113);
+font-family: 'Inter', Inter, sans-serif;
+font-size: 2em;
+margin-top: -10px;
+margin-bottom: 30px;
+}
+.takeawaymenu{
+display:flex;
+padding: 30px 280px 30px 280px;
+margin-left: 110px;
+background-color: whitesmoke;
+border: 2px solid rgb(113, 113, 113);
+color:rgb(113, 113, 113);
+font-family: 'Inter', Inter, sans-serif;
+font-size: 2em;
+margin-bottom: 30px;
+}
+.menubars{
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 200px;
+    margin-left: 350px;
+}
+.menustaff{
+    background-color: #e5e5e4;
+    margin-top: -30px;
+}
 
 .nav:hover,.foodmenu:hover,.drinksmenu:hover, .takeawaymenu:hover{
     cursor:pointer;
