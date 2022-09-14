@@ -233,3 +233,116 @@ margin-bottom: 18vh;
 .menuimg:hover, .mail:hover,.facebook:hover, .insta:hover, .instainternal:hover{
     cursor:pointer;
 }
+
+@media screen and (min-width: 800px) and (max-width: 1328px) {
+    h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: -38vw;
+        margin-top: -6vh;
+        padding-top: 1vh;
+        padding-bottom:4vh;
+        margin-bottom:1vh;
+        flex-wrap: wrap;
+        Font-family: Inter, sans-serif;
+        font-weight: bolder;
+        Font-size:3.9em;
+        Line-height: 232%;
+        color: rgba(210, 116, 135, 1);
+    }
+
+    h4 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -70vh;
+        justify-items: center;
+        align-items: flex-start;
+        margin-bottom: 20vh;
+        Font-family: Azeret Mono, sans-serif;
+        Font-style: Bold;
+        Font-size: 1.5em;
+        Line-height: 509%;
+        margin-left: 35vw;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0%;
+        align-content: flex-start;  
+        }
+    .mail{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -16.5vh;
+        margin-left: 60vw;
+        
+    }
+    .facebook{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -1.8vh;
+        padding-top: 0.221vh;
+        margin-left: 65vw;
+    }
+    
+    .insta{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -1.8vh;
+        margin-left: 69vw;
+    }
+    .instainternal{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -1.4vh;
+        margin-left: 69.55vw;
+    }
+
+    .menuimg{
+        display: flex;
+        flex-direction: row;
+        margin-left: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 20vh;
+    }
+}
+
+
+@media screen and (max-width: 799px) {
+    
+    .mail{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -12vh;
+        margin-left: 80vw;
+        
+    }
+    .facebook{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -2vh;
+        padding-top: 0.221vh;
+        margin-left: 82vw;
+    }
+    
+    .insta{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -2vh;
+        margin-left: 84vw;
+    }
+    .instainternal{
+        display: flex;
+        justify-items: flex-end;
+        align-items: flex-start;
+        margin-top: -1.48vh;
+        margin-left: 84.25vw;
+    }
+}
